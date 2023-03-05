@@ -1,25 +1,26 @@
 html {
-  background-image: url(naplemente.jpg);
+  background-color: rgba(158,225,231,255);
+  /*background-image: url(naplemente.jpg);
   background-size: cover;
   height: 800px;
-  width: auto;
+  width: auto;*/
 }
 body {
   margin:0;
 }
 
-/*.hatter {
-  position:relative;
+.hatter {
+  position:absolute;
   border: 0px;
   padding: 0px;
   margin:0px;
   height: 600px;
-  width: 950px;
+  width: auto;
 }
-*/
+
 .bemutatkozas {
   position: absolute;
-  top:150px;
+  top:600px;
   left:35%;
 }
 
@@ -52,7 +53,7 @@ table {
     justify-content: center;
   text-align: left;
   display: inline-flex;
-  bottom:-175px;
+  bottom:-675px;
   left:20%;
   border-spacing: 15px;
   font-size: 15px;
@@ -63,9 +64,9 @@ table {
   image-orientation:revert;
   width: 220px;
   height:auto;
- /*display: inline-flex;*/
+ display: inline-flex;
  position: absolute;
-  bottom:-180px;
+  bottom:-700px;
   left: 40%;
   border-radius: 50px;
 }
@@ -76,7 +77,7 @@ table {
 
 .kapcsolat {
   position: absolute;
-  bottom:-100px;
+  bottom:-610px;
   left:60%
 }
 .logo {
@@ -87,5 +88,6 @@ table {
 
 .uzenetnekem {
   position: absolute;
-  bottom:-350px;
+  left:25%;
+  bottom:-850px;
 }
