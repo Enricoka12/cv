@@ -1,0 +1,91 @@
+html {
+  background-image: url(naplemente.jpg);
+  background-size: cover;
+  height: 800px;
+  width: auto;
+}
+body {
+  margin:0;
+}
+
+/*.hatter {
+  position:relative;
+  border: 0px;
+  padding: 0px;
+  margin:0px;
+  height: 600px;
+  width: 950px;
+}
+*/
+.bemutatkozas {
+  position: absolute;
+  top:150px;
+  left:35%;
+}
+
+  .elvalaszto1 {
+    border-top: 5px dotted;
+  }
+
+h1 {
+  font-family: monospace;
+  font-size: 60px;
+  text-align: center;
+}
+
+.irott {
+  font-family: 'Mynerve', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.junior {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.Skilljeim {
+
+}
+table {
+  position: absolute;
+    justify-content: center;
+  text-align: left;
+  display: inline-flex;
+  bottom:-175px;
+  left:20%;
+  border-spacing: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.enke {
+  image-orientation:revert;
+  width: 220px;
+  height:auto;
+ /*display: inline-flex;*/
+ position: absolute;
+  bottom:-180px;
+  left: 40%;
+  border-radius: 50px;
+}
+.enke:hover {
+  image-orientation: revert;
+  opacity: 50%;
+}
+
+.kapcsolat {
+  position: absolute;
+  bottom:-100px;
+  left:60%
+}
+.logo {
+  justify-content: center;
+  display: inline;
+  width: 50px;
+}
+
+.uzenetnekem {
+  position: absolute;
+  bottom:-350px;
+}
