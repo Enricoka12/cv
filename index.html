@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
@@ -27,53 +22,208 @@
 
   <body>
 
-<img class="hatter" src="fak.jpg" alt=""> 
 
-    <div class="bemutatkozas">
-  <h1>Üdvözöllek</h1>
-<hr class="elvalaszto1">
-  <p class="irott">Boros Enrico vagyok</p>
-<hr class="elvalaszto1">
-  <p class="junior">Junior Front-end fejlesztő</p>
+  
+
+
+
+
+
+    <!--FELSÓ MENÜ-->
+
+    <div class="container">
+      <header class="d-flex justify-content-start py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Főoldal</a></li>
+          <li class="nav-item"><a href="#rolam" class="nav-link">Rólam</a></li>
+          <li class="nav-item"><a href="#munkaim" class="nav-link">Munkáim</a></li>
+          <li class="nav-item"><a href="#elerhetoseg" class="nav-link">Elérhetőségem</a></li>
+        </ul>
+      </header>
+    </div>
+
+
+
+    <!--FŐ RÉSZ-->
+
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 id="rolam" class=" udv display-5 fw-bold text-body-emphasis">Üdvözöllek</h1>
+      <div class="col-lg-16 mx-auto">
+        <p class=" bemutatkozas lead mb-4 text-xxl">Boros Enrico vagyok</p>
+        <p class="bemutatkozas lead mb-4"> Junior Front-end fejlesztő</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        </div>
+      </div>
+    </div>
+
+    <!--ELVÁLASZTÓ-->
+<div class="b-example-divider"></div>
+
+
+
+    <!--stackek-->
+
+    <div class=" stack container px-4 py-5" id="hanging-icons">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img height="70px" src="./ikon/css-3.png" alt="">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">CSS</h3>
+            <p>A CSS a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.</p>
+            <a href="https://webiskola.hu/css-ismeretek/" class="btn btn-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img height="70px" src="./ikon/html-5.png" alt="">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Html-5</h3>
+            <p>A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával. Az aktuális változata az 5.</p>
+            <a href="https://webiskola.hu/html-ismeretek/" class="btn btn-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img height="70px" src="./ikon/js.png" alt="">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Javascript</h3>
+            <p>A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.</p>
+            <a href="https://webiskola.hu/javascript-alapok-kezdoknek/" class="btn btn-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--ELVÁLASZTÓ-->
+    <div class="b-example-divider"></div>
+
+
+
+<!--Munkáim-->    
+
+<div class="munkaim" col-lg-3 col-sm-3 col-3>
+  <h2>Munkáim :</h2>
+  <div class="munkak" col-lg-3 col-sm-3 col-3>
+    <h3>Todo :</h3>
+    <h3>Kaloriaszámláló :</h3>
   </div>
+</div>
+
+
+<!--ELVÁLASZTÓ-->
+<div class="b-example-divider"></div>
+
+
+<!--Rólam-->
+<div class="rol">
+  <div class="rolam px-2 py-5 my-5 ">
+    <img class="d-block en" src="./en.jpg" alt="">
+    <h1 class="szoveg display-5 fw-bold text-body-emphasis">Elérhetőségeim :</h1>
+    <div class="col-lg-6 ml-2">
+      <p class="lead mb-4">A következő platformokon felveheted velem a kapcsolatot :</p>
+      <div class="d-grid gap-2 d-sm-flex ">
+        <div id="elerhetoseg" class="elerhet">
+          <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"><img class="info"  src="./linkedin.png" alt=""></a>
+           <a href="mailto:borose12@hotmail.com"><img class="info" src="./email.png" alt=""></a>
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <!--
+  <div class="rol">
+    <div class="rolam px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4 en"  src="./en.jpg" alt="" ">
+      <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+        </div>
+      </div>
+    </div>
+    </div>
+ -->
+
+
+
+
+
+
+<!--ELVÁLASZTÓ-->
+<div class="b-example-divider"></div>
+
+
+<!--LÁBRÉSZ-->
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Boros Enrico</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+<!--
+    <div class="enke-container">
+  <img src="en.jpg" alt="en1" class="enke">
+  <div class="enke-overlay">
+  <div class="Skilljeim">
     <table>
-
-    <div class="Skilljeim">
-
-
-<th>Skilljeim</th>
-  <th> Tapasztalat</th>
-
-<tr>
-  <td>Html</td>
-  <td>⭐⭐</td>
-</tr>
-<tr>
-  <td>Css</td>
-  <td>⭐⭐</td>
-</tr>
-
-<tr>
-  <td>Javascript</td>
-  <td>⭐⭐</td>
-</tr>
-
-<tr>
-  <td>React</td>
-  <td>⭐⭐</td>
-</tr>
-
-
-  </table>
-
+      <th>Skilljeim</th>
+      <th>Tapasztalat</th>
+      <tr>
+        <td>Html</td>
+        <td>⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Css</td>
+        <td>⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>⭐⭐</td>
+      </tr>
+      <tr>
+        <td>React</td>
+        <td>⭐⭐</td>
+      </tr>
+    </table>
   </div>
-  <img  src="en.jpg" alt="en1" class="enke">
+</div>
+</div>
 
   <div class="uzenetnekem">
     <textarea name="uzenet" rows="8" cols="80">Írj Nekem egy üzenetet</textarea>
     <button type="submit" name="button">Küldés</button>
   </div>
-      <!--<hr class="uzenetelvalszto">!-->
+      <hr class="uzenetelvalszto">
 
       <div class="kapcsolat">
         <h2>Elérhetőségeim: </h2>
@@ -81,9 +231,13 @@
       <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"> <img class="logo" src="linkedin.png" alt=""> </a>
       </div>
 
-
+    </div>
 
 
     </div>
+    <script src="script.js">
+
+    </script>
+     -->
   </body>
 </html>

@@ -1,93 +1,57 @@
-html {
-  background-color: rgba(158,225,231,255);
-  /*background-image: url(naplemente.jpg);
-  background-size: cover;
-  height: 800px;
-  width: auto;*/
-}
 body {
-  margin:0;
+  background: radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(36, 212, 219) 100.2%);
+
+.udv {
+  font-size: 100px;
 }
 
-.hatter {
-  position:absolute;
-  border: 0px;
-  padding: 0px;
-  margin:0px;
-  height: 600px;
-  width: auto;
+
+.bemutatkozas  {
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.bemutatkozas {
-  position: absolute;
-  top:600px;
-  left:35%;
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(88, 235, 90, 0.1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-  .elvalaszto1 {
-    border-top: 5px dotted;
-  }
+.en {
+  display: flex;
+  border-radius: 25%;
+  height:280px;
+  max-height: 290px;
+  max-width: fit-content;
+  float: left;
+  margin-right: 7rem;
+  overflow: hidden;
+}
 
-h1 {
-  font-family: monospace;
-  font-size: 60px;
+.elerhet {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.info {
+  width: 80px;
+}
+
+.munkaim {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  height: 300px;
 }
 
-.irott {
-  font-family: 'Mynerve', cursive;
-  font-size: 50px;
-  text-align: center;
-}
-
-.junior {
-  font-family: monospace;
-  font-size: 30px;
-}
-
-.Skilljeim {
-
-}
-table {
-  position: absolute;
-    justify-content: center;
-  text-align: left;
-  display: inline-flex;
-  bottom:-675px;
-  left:20%;
-  border-spacing: 15px;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.enke {
-  image-orientation:revert;
-  width: 220px;
-  height:auto;
- display: inline-flex;
- position: absolute;
-  bottom:-700px;
-  left: 40%;
-  border-radius: 50px;
-}
-.enke:hover {
-  image-orientation: revert;
-  opacity: 50%;
-}
-
-.kapcsolat {
-  position: absolute;
-  bottom:-610px;
-  left:60%
-}
-.logo {
-  justify-content: center;
-  display: inline;
-  width: 50px;
-}
-
-.uzenetnekem {
-  position: absolute;
-  left:25%;
-  bottom:-850px;
+.munkak {
+  display: flex;
+  flex-direction: row;
+  margin:0 auto;
+  gap: 30rem;
 }
