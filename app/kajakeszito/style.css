@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(34, 6, 192);
+}
+
+
+.fejlec {
+   display: flex;
+   justify-content: center;
+  text-align: center;
+}
+
+.etrend {
+    display: grid;
+    text-align: center;
+    font-size: 4rem;
+    color:rgb(224, 224, 224);
+}
+
+.gomb {
+   display: grid;
+   justify-content: center;
+}
