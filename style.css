@@ -52,6 +52,7 @@ body {
 .munkak {
   display: flex;
   flex-direction: row;
+ justify-content:space-evenly;
   margin:0 auto;
   gap: 30rem;
 }
