@@ -9,9 +9,11 @@
 
     <!--BOOTSTRAP-->
 
-
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
@@ -20,79 +22,122 @@
 
 
 <body>
-    <h1>Itt kiszámolhatod a kaloriaszükségleted!</h1>
-    <!--
-    <div class="row-cols-2">
-        <div class="kerdesek col-lg-3">
-            <label for="nem">Nem-e?</label>
-            <select name="nem" id="nem">
-                <option value="ferfi">Férfi</option>
-                <option value="no">Nő</option>
-            </select>
 
-            <label for="kor">Kora?</label>
-            <input type="number" id="kor" placeholder="Hány Éves?">
 
-            <label for="magassag">Milyen magas vagy?</label>
-            <input type="number" id="magassag" placeholder="Milyen magas vagy Cm-ben?">
 
+
+    <!--SZÁMOLÁS-->
+
+
+
+
+
+    <div class="row kivalasztas  ">
+        <div class=" d-flex justify-content-center col-md col-sm">
+            <label for="nem">Nemed?</label>
+            <div class="row">
+                <div class="col-sm">
+                    <select required name="nem" id="nem">
+                        <option value="ferfi">Férfi</option>
+                        <option value="no">Nő</option>
+                    </select>
+                </div>
+            </div>
         </div>
-    </div>
--->
 
-    <div class="kerdesek">
         <div class="row">
-            <div class="col szoveg">
-                <label for="nem">Nem-e?</label>
-                <select required="" name="nem" id="nem">
-                    <option value="ferfi">Férfi</option>
-                    <option value="no">Nő</option>
-                </select>
-
-                <label for="suly">hány kg?</label>
+            <div class="d-flex justify-content-center col-md col-sm">
+                <label for="suly">Súlyod?</label>
                 <input required type="number" id="suly" placeholder="Hány kg?">
-
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center col-md col-sm">
                 <label for="kor">Korod?</label>
                 <input required type="number" id="kor" placeholder="Hány Éves?">
-
-                <label for="magassag">Milyen magas vagy?</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center col-md col-sm">
+                <label for="magassag">Magasságod?</label>
                 <input required type="number" id="magassag" placeholder="Milyen magas vagy Cm-ben?">
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="d-flex justify-content-center col-sm-12 col-md-12 col-md-xxl-12">
 
-    <div class="row">
-        <div class="col gomb">
-            <button type="submit" class="btn btn-primary btn-lg">Számold ki</button>
+                <button type="submit" class="btn btn-primary btn-lg">Számold ki</button>
+            </div>
+
         </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
     <!--EREDMÉNY-->
-    <div class="eredmeny">
-        <div class=" row  ">
-            <div class="col  mire">
+
+
+    <div class="    px-4 py-5  text-center">
+        <h1 class=" nagydoboz display-6 fw-bold">
+
+            <div class="row">
+
+
                 <h3 class="fogyas">Fogyáshoz :<span id="fogyas-eredmeny"></span> Kcal</h3>
                 <p>Fehérje: <span id="feherje-eredmeny"></span> g</p>
                 <p>Zsír: <span id="zsir-eredmeny"></span> g</p>
                 <p>Szénhidrát: <span id="szenhidrat-eredmeny"></span> g</p>
-            </div>
-
-            <div class="col  mire">
                 <h3 class="sulytartas">Sulyfenntartáshoz :<span id="sulymegtartas-eredmeny"></span> Kcal</h3>
                 <p>Fehérje: <span id="feherje-eredmeny-tartas"></span> g</p>
                 <p>Zsír: <span id="zsir-eredmeny-tartas"></span> g</p>
                 <p>Szénhidrát: <span id="szenhidrat-eredmeny-tartas"></span> g</p>
-            </div>
 
-            <div class="col mire">
+
+
                 <h3 class="tomegeles">Tömegnöveléshez :<span id="tomegeles-eredmeny"></span> Kcal </h3>
                 <p>Fehérje: <span id="feherje-eredmeny-tomegeles"></span> g</p>
                 <p>Zsír: <span id="zsir-eredmeny-tomegeles"></span> g</p>
                 <p>Szénhidrát: <span id="szenhidrat-eredmeny-tomegeles"></span> g</p>
+
+
+
             </div>
-        </div>
     </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -101,7 +146,28 @@
         crossorigin="anonymous"></script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (opcionális, de a Bootstrap JavaScript-hez szükséges) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
     <script src="index.js"></script>
+
 
 </body>
 

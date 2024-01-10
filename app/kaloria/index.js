@@ -46,3 +46,5 @@ document.querySelector("button").addEventListener("click", function () {
     document.getElementById("szenhidrat-eredmeny-tomegeles").textContent = szenhidrat.toFixed(2);
     document.getElementById("zsir-eredmeny-tomegeles").textContent = zsir.toFixed(2);
 });
+
+
