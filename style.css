@@ -1,8 +1,9 @@
 body {
+  box-sizing: border-box;
   background: radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(36, 212, 219) 100.2%);
 
 .udv {
-  font-size: 100px;
+  font-size: 7rem;
 }
 
 
