@@ -62,3 +62,23 @@ body {
 .masszinu {
   color: black;
 }}
+
+.kartyakep {
+  height: 14rem;
+}
+
+
+.card-body {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+}
