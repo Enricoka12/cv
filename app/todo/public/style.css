@@ -67,7 +67,6 @@
   .waviy {
     
     position: relative;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
     font-size: 1.7rem;
   }
   .waviy span {
@@ -88,6 +87,10 @@
     }
   }
   
+  .kismeret {
+    min-width: 22rem;
+    height: 22rem;
+  }
   
   .inputmezo {
     width: 100%;
@@ -97,6 +100,6 @@
   display: flex;
   align-items: center;
   justify-content:center;
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
   
