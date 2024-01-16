@@ -1,0 +1,102 @@
+
+  body {
+    background: linear-gradient(-45deg, #012533, #222119, #0b0e0a, #012533);
+    background-size: 500% 500%;
+  }
+ 
+
+
+  .kartya {
+    border-color:#222;
+    border-color: antiquewhite;
+ background-color: antiquewhite;
+  }
+
+
+
+
+  h1, li {
+    color:black
+  }
+
+  hr {
+    color: black;
+  }
+
+  .gradient-border {
+    --border-width: 3px;
+  
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: antiquewhite;
+    border-radius: var(--border-width);
+  
+    &::after {
+      position: absolute;
+      content: "";
+      top: calc(-1 * var(--border-width));
+      left: calc(-1 * var(--border-width));
+      z-index: -1;
+      width: calc(100% + var(--border-width) * 2);
+      height: calc(100% + var(--border-width) * 2);
+      background: linear-gradient(
+        60deg,
+        hsl(224, 85%, 66%),
+        hsl(269, 85%, 66%),
+        hsl(314, 85%, 66%),
+        hsl(359, 85%, 66%),
+        hsl(44, 85%, 66%),
+        hsl(89, 85%, 66%),
+        hsl(134, 85%, 66%),
+        hsl(179, 85%, 66%)
+      );
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: calc(2 * var(--border-width));
+      animation: moveGradient 4s alternate infinite;
+    }
+  }
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .waviy {
+    
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 1.7rem;
+  }
+  .waviy span {
+    color: #0b0e0a;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: waviy 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,60%,100% {
+      transform: translateY(0)
+    }
+    40% {
+      transform: translateY(-20px)
+    }
+  }
+  
+  
+  .inputmezo {
+    width: 100%;
+  }
+
+.nagydoboz {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 15rem;
+}
+  
