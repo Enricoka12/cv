@@ -89,14 +89,14 @@
                         <!--Listazza az elemeket-->
                         <li class="text-center" style="list-style: none;">
                             <div class="row">
-                                <div class="col-12 col-col-md-12 col-lg-6">
+                                <div class="col-6 col-md-6 col-lg-6">
                                     <p>
                                         <%= listaelem.szoveg %>
                                     </p>
                                 </div>
 
                                 <!--Törlés opció-->
-                                <div class="col-12 col-md-12 col-lg-6">
+                                <div class="col-6 col-md-6 col-lg-6">
                                     <div class="btn-group ps-2  gap-2" role="group">
                                         <form action="/delete" method="post" style="display: inline;">
                                             <input class="rounded inputmezo" type="hidden" value=" <%= listaelem.id %>"
