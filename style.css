@@ -100,6 +100,24 @@ h2 {
   margin-top: 1rem;
 }
 
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.carden {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+}
+
+
+
+
+
+
+
 .title {
   color: grey;
   font-size: 18px;
@@ -139,13 +157,9 @@ button:hover, a:hover {
   height: 45rem;
   margin-top: 5rem;
   opacity: 0%;
-}
-
-
-
-.koszones {
   animation: slide-in-anim 1.5s ease-in forwards;
 }
+
 
 
 @keyframes slide-in-anim {
