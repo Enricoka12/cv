@@ -1,10 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   box-sizing: border-box;
-  background: radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(36, 212, 219) 100.2%);
-
-.udv {
-  font-size: 7rem;
+  background: linear-gradient(55deg, #806060 0%, #9b8e8e 51%, #58b4db 85%);
+  background-size: 150%;
 }
+
+
 
 
 .bemutatkozas  {
@@ -14,24 +19,15 @@ body {
 
 
 .b-example-divider {
-  width: 100%;
   height: 3rem;
   background-color: rgba(88, 235, 90, 0.1);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  min-width: 110%;
 }
 
-.en {
-  display: flex;
-  border-radius: 25%;
-  height:280px;
-  max-height: 290px;
-  max-width: fit-content;
-  float: left;
-  margin-right: 7rem;
-  overflow: hidden;
-}
+
 
 .elerhet {
   display: flex;
@@ -61,7 +57,7 @@ body {
 
 .masszinu {
   color: black;
-}}
+}
 
 .kartyakep {
   height: 14rem;
@@ -81,4 +77,119 @@ body {
 
 h2 {
   text-align: center;
+}
+
+.fa {
+  display: flex;
+}
+
+
+.stackek {
+  justify-content: center;
+}
+
+
+
+
+
+.carden {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.info {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+.en {
+ max-width: 100%;
+  margin: auto auto 1rem auto;
+}
+
+.udv {
+  font-size: 10rem;
+  height: 45rem;
+  margin-top: 5rem;
+  opacity: 0%;
+}
+
+
+
+.koszones {
+  animation: slide-in-anim 1.5s ease-in forwards;
+}
+
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+    transform: translateX(-100%)  scale(0.8);
+	}
+	75% {
+		transform: translateX(0%) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%) translateY(20%) scale(1.0);
+	}
+}
+
+.fade {
+  opacity: 0%;
+}
+
+
+.navigacio {
+  animation: lefeleuszik 1s ease-in;
+}
+
+@keyframes lefeleuszik {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+
+
+.form-control {
+  width: 40%;
+}
+
+
+.cv {
+  padding-bottom: 15%;
 }

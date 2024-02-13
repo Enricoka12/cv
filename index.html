@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
- 
+
 
 
 
@@ -13,16 +13,20 @@
 
   <link rel="stylesheet" href="style.css">
 
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-<!-- jQuery (opcionális, de a Bootstrap JavaScript-hez szükséges) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Bootstrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!--Font Awesome Icon-->
+  <script src="https://kit.fontawesome.com/b4f022b94c.js" crossorigin="anonymous"></script>
 
 
   <meta charset="utf-8">
@@ -40,7 +44,7 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
 
   <!--FELSÓ MENÜ-->
 
-  <div class="container">
+  <div class="navigacio container">
     <header class="d-flex justify-content-start py-3">
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Főoldal</a></li>
@@ -55,11 +59,13 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
 
   <!--FŐ RÉSZ-->
 
-  <div class="px-4 py-5 my-5 text-center">
-    <h1 id="rolam" class=" udv display-5 fw-bold text-body-emphasis">Üdvözöllek</h1>
+  <div class="py-5 my-5 justify-content-center">
+
+    <h1 id="rolam" class="koszones udv fw-bold text-center text-body-emphasis">Üdvözöllek</h1>
+
     <div class="col-lg-16 mx-auto">
-      <p class=" bemutatkozas lead mb-4 text-xxl">Boros Enrico vagyok</p>
-      <p class="bemutatkozas lead mb-4"> Junior Front-end fejlesztő</p>
+      <p class=" bemutatkozas text-center lead mb-4 text-xxl">Boros Enrico vagyok</p>
+      <p class="bemutatkozas text-center lead mb-4"> Full Stack fejlesztő</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
       </div>
     </div>
@@ -68,267 +74,208 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
   <!--ELVÁLASZTÓ-->
   <div class="b-example-divider"></div>
 
+  <div class="fade row">
 
+    <div class="col-lg-6 ">
+
+      <div class="carden">
+        <img class=" en" src="./en.jpg" alt="Boros Enrico">
+        <h1>Boros Enrico</h1>
+        <p class="titl">Tudod miért jó webfejleszőnek lenni?</p>
+        <p></p>
+        <div class="py-2">
+        <a href="https://twitter.com/BorosEnrico"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/boros.rico.3"><i class="fa fa-facebook"></i></a>
+        </div>
+        <p><a href="/2024 cv.pdf"><button>CV</button></p></a>
+      </div>
+
+
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-md-12 justify-content-center stackek ">
+
+     
+
+        
+
+          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-js"></i> Javascript</h3>
+
+          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-bootstrap"></i> Bootstrap</h3>
+          <p></p>
+ 
+
+          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-html5"></i> Html </h3>
+          <p></p>
+
+          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-node"></i> NodeJs</h3>
+          <p></p>
+
+          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-css3-alt"></i> CSS </h3>
+          <p></p>
+
+          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-solid fa-database"></i> PostgreSQL</h3>
+          <p></p>
+
+        
+
+      
+
+
+
+
+    </div>
+  </div>
+  <div class="b-example-divider"></div>
 
   <!--stackek-->
 
-  <div class=" stack container px-4 py-5" id="hanging-icons">
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img height="70px" src="./ikon/css-3.png" alt="">
-        </div>
-        <div>
-          <h3 class="fs-2 text-body-emphasis">CSS</h3>
-          <p>A CSS a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok
-            megjelenését írja le.</p>
-          <a href="https://webiskola.hu/css-ismeretek/" class="btn btn-primary">
-            Bővebben
-          </a>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img height="70px" src="./ikon/html-5.png" alt="">
-        </div>
-        <div>
-          <h3 class="fs-2 text-body-emphasis">Html-5</h3>
-          <p>A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá
-            vált a W3C támogatásával. Az aktuális változata az 5.</p>
-          <a href="https://webiskola.hu/html-ismeretek/" class="btn btn-primary">
-            Bővebben
-          </a>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img height="70px" src="./ikon/js.png" alt="">
-        </div>
-        <div>
-          <h3 class="fs-2 text-body-emphasis">Javascript</h3>
-          <p>A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon
-            elterjedten használnak.</p>
-          <a href="https://webiskola.hu/javascript-alapok-kezdoknek/" class="btn btn-primary">
-            Bővebben
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--ELVÁLASZTÓ-->
-  <div class="b-example-divider"></div>
 
 
   <h2>Munkáim</h2>
+
   <!--Kártyák-->
-<div class="container kartyak py-2 px-6">
-  
-  <div class="row  g-3 px-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
-  
+  <div class="fade container kartyak py-2 px-6">
 
-    <div class="col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center ">
-      <div class="card text-center" style="width:400px; " >
-        <a href="app/Drum Kit/index.html"> <img class="card-img-top kartyakep" src="app/Drum Kit/images/drumkit.png" alt="Card image"></a>
-        <div class="card-body">
-          <h4 class="card-title">Ha dobolni támadna kedved</h4>
-          <p class="card-text">Javascript+Html+Css</p>
-          <a href="app/Drum Kit/index.html" class="btn btn-primary">Drum Kit</a>
-        </div>
-      </div>
-    </div>
-  
-    <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
-      <div class=" card text-center" style="width:400px;">
-        <a href="app/TinDog/index.html">  <img class="card-img-top kartyakep" src="app/TinDog/images/tindog.png" alt="Card image"></a>
-        <div class="card-body">
-          <h4 class="card-title">Kutya Társkereső</h4>
-          <p class="card-text">Html+Bootstrap+Css</p>
-          <a href="app/TinDog/index.html" class="btn btn-primary">Tindog</a>
-        </div>
-      </div>
-    </div>
-  
-    <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center ">
-      <div class="  card text-center" style="width:400px;">
-       <a href="app/kaloria/index.html"> <img class="card-img-top kartyakep" src="app/kaloria/images/kaloria.png" alt="Card image"></a>
-        <div class="card-body">
-          <h4 class="card-title">Kalória Szükséglet App</h4>
-          <p class="card-text">Html+Javascript+Bootstrap+Css</p>
-          <a href="app/kaloria/index.html" class="btn btn-primary">Kalória Szükséglet App</a>
-        </div>
-      </div>
-    </div>
+    <div class="row  g-3 px-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
 
-    
-    <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
-      <div class=" card text-center" style="width:400px;">
-       <a href="app/idojaras/index.html"> <img class="card-img-top kartyakep" src="app/idojaras/images/idojarasApp.png" alt="Card image"></a>
-        <div class="card-body">
-          <h4 class="card-title">Időjárás App</h4>
-          <p class="card-text">Html+Javascript+Bootstrap+Css+Jquerry</p>
-          <a href="app/kaloria/index.html" class="btn btn-primary">Időjárás App</a>
+      <!--Dob-->
+      <div class="col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center ">
+        <div class="card text-center" style="width:400px; ">
+          <a href="app/Drum Kit/index.html"> <img class="card-img-top kartyakep" src="app/Drum Kit/images/drumkit.png"
+              alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">Egy egyszerű "dob" alkalmazás</h4>
+            <p class="card-text">Javascript+Html+Css</p>
+            <a href="app/Drum Kit/index.html" class="btn btn-primary">Drum Kit</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
-      <div class=" card text-center" style="width:400px;">
-       <a href="https://simple-todo-e9fj.onrender.com/"> <img class="card-img-top kartyakep" src="app/todo/views/images/todo.png" alt="Card image"></a>
-        <div class="card-body">
-          <h4 class="card-title">TODO App</h4>
-          <p class="card-text">Ejs+Javascript+Bootstrap+Css+NODE+Express</p>
-          <a href="https://simple-todo-e9fj.onrender.com/" class="btn btn-primary">TODO App</a>
+      <!--Tindog-->
+      <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class=" card text-center" style="width:400px;">
+          <a href="app/TinDog/index.html"> <img class="card-img-top kartyakep" src="app/TinDog/images/tindog.png"
+              alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">Kutya Társkereső</h4>
+            <p class="card-text">Html+Bootstrap+Css</p>
+            <a href="app/TinDog/index.html" class="btn btn-primary">Tindog</a>
+          </div>
         </div>
       </div>
-    </div>
 
-  
+      <!--Kalóriaszámláló-->
+      <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center ">
+        <div class="  card text-center" style="width:400px;">
+          <a href="app/kaloria/index.html"> <img class="card-img-top kartyakep" src="app/kaloria/images/kaloria.png"
+              alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">Kalória Szükséglet App</h4>
+            <p class="card-text">Html+Javascript+Bootstrap+Css</p>
+            <a href="app/kaloria/index.html" class="btn btn-primary">Kalória Szükséglet App</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Időjárás-->
+      <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class=" card text-center" style="width:400px;">
+          <a href="app/idojaras/index.html"> <img class="card-img-top kartyakep"
+              src="app/idojaras/images/idojarasApp.png" alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">Időjárás App</h4>
+            <p class="card-text">Html+Javascript+Bootstrap+Css+Jquerry</p>
+            <a href="app/kaloria/index.html" class="btn btn-primary">Időjárás App</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Todo-->
+      <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class=" card text-center" style="width:400px;">
+          <a href="https://simple-todo-e9fj.onrender.com/"> <img class="card-img-top kartyakep"
+              src="app/todo/views/images/todo.png" alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">TODO App</h4>
+            <p class="card-text">Ejs+Javascript+Bootstrap+Css+NODE+Express</p>
+            <a href="https://simple-todo-e9fj.onrender.com/" class="btn btn-primary">TODO App</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Edzésterv készítő -->
+
+      <div class=" col-sm-6 col-md-12 col-lg-4 d-flex justify-content-center">
+        <div class=" card text-center" style="width:400px;">
+          <a href=""> <img class="card-img-top kartyakep" src="" alt="Card image"></a>
+          <div class="card-body">
+            <h4 class="card-title">Edzésterv készítő App</h4>
+            <p class="card-text">Ejs+Bootstrap+NODE+Express+PostgreSQL</p>
+            <a href="" class="btn btn-primary">TODO App</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
-</div>
+
+
   <!--ELVÁLASZTÓ-->
   <div class="b-example-divider"></div>
 
 
   <!--Rólam-->
-  <div class="rol">
-    <div class="rolam px-2 py-5 my-5 ">
-      <img class="d-block en" src="./en.jpg" alt="">
-      <h1 class="szoveg display-5 fw-bold text-body-emphasis">Elérhetőségeim :</h1>
-      <div class="col-lg-6 ml-2">
-        <p class="lead mb-4">A következő platformokon felveheted velem a kapcsolatot :</p>
-        <div class="d-grid gap-2 d-sm-flex ">
-          <div id="elerhetoseg" class="elerhet">
-            <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"><img class="info" src="./linkedin.png"
-                alt=""></a>
-            <a href="mailto:borose12@hotmail.com"><img class="info" src="./email.png" alt=""></a>
-            <img src="" alt="">
-          </div>
+
+<h1 class="szoveg text-center display-5 fw-bold text-body-emphasis">Kapcsolat :</h1>
+
+<div class="mx-auto py-3 text-center">
+
+  <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"><img class="info" src="./linkedin.png"
+      alt=""></a>
+  <a href="mailto:borose12@hotmail.com"><img class="info" src="./email.png" alt=""></a>
+  <img src="" alt="">
+
+</div>
+
+<h2 class="text-center">Vagy</h2>
+
+    <div class="col-6 mx-auto text-center justify-content-center  py-2 my-2 ">
+
+      <h1 class="szoveg fw-bold text-body-emphasis">Irj nekem üzenetet :</h1>
+      <form id="emailForm">
+        <div class="form-group">
+          <textarea class="form-control" id="uzenet" cols="3" rows="2"></textarea>
+          <a href="mailto:borose12@hotmail.com"><button class="btn-primary btn" type="submit">Küldés</button></a>
         </div>
-      </div>
+      </form>
     </div>
+
   </div>
 
   <!--Kártyák-->
-  
-  
 
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<!-- CAROUSEL
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class=" carousel-item active">
-       <a href="app/Drum Kit/index.html"> <img src="app/Drum Kit/images/drumkit.png" class="kepek d-block w-100 h-50" alt="drumkit"></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Dob alkalmazás</h5>
-          <p>Ha dobolni támadna kedved</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <a href="app/TinDog/index.html"><img src="app/TinDog/images/tindog.png" class="kepek d-block w-100" alt="tindog"></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Tindog</h5>
-          <p>A kutyádnak is jár a boldogság</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-       <a href="app/kaloria/index.html"> <img src="app/kaloria/images/kaloria.png" class="kepek d-block w-100" alt="kaloria"></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h5 class="masszinu">Kalória szükséglet számoló alkalmazás</h5>
-          <p class="masszinu">Kalória szükséglet számoló alkalmazás</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
---> 
-
-
-  <!--ELVÁLASZTÓ-->
-  <div class="b-example-divider"></div>
 
 
   <!--LÁBRÉSZ-->
 
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Boros Enrico</span>
-      </div>
+  <div class="col-6 mx-auto">
+    <footer>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#twitter"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#instagram"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"></use>
-            </svg></a></li>
-      </ul>
-    </footer>
+      <h3><span class="text-center text-body-secondary" id="datum"></span></h3>
+  </div>
+
+  </footer>
   </div>
 
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
