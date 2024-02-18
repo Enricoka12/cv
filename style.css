@@ -227,7 +227,7 @@ padding-left: 2rem;
   background: rgb(34,193,195);
   background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(145,159,50,1) 40%, rgba(64,146,213,1) 100%);
 border-radius: 50%;
-animation: bounce 2s ease infinite;
+animation: bounce 2s ease-in infinite;
   &:hover  {
     filter: drop-shadow(-20px 20px 52px rgba(219, 223, 224, 0.425));
   }
