@@ -4,6 +4,8 @@
 <head>
 
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,12 +46,11 @@
 
   <!--FELSÓ MENÜ-->
 
-  <div class="navigacio container">
-    <header class="d-flex justify-content-start py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Főoldal</a></li>
+  <div class="navigacio container fixed-top">
+    <header class=" d-flex justify-content-start py-3">
+      <ul class="nav nav-pills navigacioszoveg">
         <li class="nav-item"><a href="#rolam" class="nav-link">Rólam</a></li>
-        <li class="nav-item"><a href="#munkaim" class="nav-link">Munkáim</a></li>
+        <li class="nav-item"><a href="#projektjeim" class="nav-link">Projektjeim</a></li>
         <li class="nav-item"><a href="#elerhetoseg" class="nav-link">Elérhetőségem</a></li>
       </ul>
     </header>
@@ -57,85 +58,167 @@
 
 
 
-  <!--FŐ RÉSZ-->
 
-  <div class="py-5 my-5 justify-content-center">
 
-    <h1 id="rolam" class=" udv fw-bold text-center text-body-emphasis">Üdvözöllek</h1>
+  <div class="container-fluid overflow-hidden ">
 
-    <div class="col-lg-16 mx-auto">
-      <p class=" bemutatkozas text-center lead mb-4 text-xxl">Boros Enrico vagyok</p>
-      <p class="bemutatkozas text-center lead mb-4"> Full Stack fejlesztő</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      </div>
-    </div>
-  </div>
+    <div class="row d-flex justify-content-between ">
 
-  <!--ELVÁLASZTÓ-->
-  <div class="b-example-divider"></div>
+      <div class="d-flex justify-content-center col-12  col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="pt 3 justify-content-center ">
+          <h1 class="kek fw-bold udv">Üdvözöllek!</h1>
 
-  <div class="fade row">
-
-    <div class="col-lg-6 ">
-
-      <div class="carden">
-        <img class=" en" src="./en.jpg" alt="Boros Enrico">
-        <h1>Boros Enrico</h1>
-        <p class="titl">Tudod miért jó webfejleszőnek lenni?</p>
-        <p></p>
-        <div class="py-2">
-        <a href="https://twitter.com/BorosEnrico"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.facebook.com/boros.rico.3"><i class="fa fa-facebook"></i></a>
+          <br>
+          <div class=" justify-content-center pt-5  d-flex align-items-center ikonok">
+           <a href="https://twitter.com/BorosEnrico"><i class="px-5 fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/boros.rico.3"><i class="px-5 fa fa-facebook"></i></a>
+          </div>
         </div>
-        <p><a href="/2024 cv.pdf"><button>CV</button></p></a>
+
+    
+
       </div>
 
-
-    </div>
-
-    <div class="col-lg-6 col-sm-6 col-md-12 justify-content-center stackek ">
-
-     
-
-        
-
-          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-js"></i> Javascript</h3>
-
-          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-bootstrap"></i> Bootstrap</h3>
-          <p></p>
- 
-
-          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-html5"></i> Html </h3>
-          <p></p>
-
-          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-node"></i> NodeJs</h3>
-          <p></p>
-
-          <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-css3-alt"></i> CSS </h3>
-          <p></p>
-
-          <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-solid fa-database"></i> PostgreSQL</h3>
-          <p></p>
-
-        
-
+      <div class="pt-3 col-12  col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
       
-
-
-
-
+          <img src="en3.png" class="kek azenkepem" alt="Rólam">
+        
+      </div>
     </div>
   </div>
-  <div class="b-example-divider"></div>
-
-  <!--stackek-->
 
 
 
-  <h2>Munkáim</h2>
+
+  <!--FŐ RÉSZ-->
+  
+
+
+
+
+  <!--Rólam-->
+
+  
+  <section class=" rolam my-5 pt-5" id="rolam">
+    <div class="container align-items-center elsodiv">
+      <div class="row align-items-center flex-row-reverse">
+        <div class="col-lg-6">
+          <div class="about-text go-to ">
+
+            <h2>Boros Enrico vagyok <mark> Full-Stack </mark> fejlesztő!</h2>
+             <br> 
+             <div class="text-center">
+            <p> Projektjeim során a kövezkező technologiákkal dolgoztam:
+            </div>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                
+              <ul>
+              <li><i class="fa-brands fa-bootstrap"></i>Bootstrap </li>
+              <li><i class="fa-brands fa-html5"></i> Html </li>
+              <li><i class="fa-brands fa-css3-alt"></i> Css </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li><i class="fa-brands fa-node"></i> NodeJs</li>
+              <li> <i class="fa-solid fa-database"></i> PostgreSQL</li>
+              <li><i class="fa-brands fa-react"></i> ReactJs</p> </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+              <hr>
+            
+
+
+
+
+
+           
+          </div>
+        </div>
+        <div class="col-lg-6  ">
+          <div class="about-avatar px-4" > <img src="avatar.png" title="" alt=""></div>
+          
+        </div>
+      </div>
+      <div class="counter">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <div class="count-data text-center">
+              <h6 class="count h2" data-to="500" data-speed="500">1995.06.24</h6>
+              <p class="m-0px font-w-600">Születésnap</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="count-data text-center">
+              <h6 class="count h2" data-to="150" data-speed="150">28</h6>
+              <p class="m-0px font-w-600">Kor</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="count-data text-center">
+              <h6 class="count h2" data-to="850" data-speed="850">Magyarország</h6>
+              <p class="m-0px font-w-600">Lakhely</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="count-data text-center">
+              <a href="mailto:borose12@hotmail.com" class="count h2" data-to="190" data-speed="190">borose12</a>
+              <p class="m-0px font-w-600">E-mail</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="/2024 cv.pdf"><button class="btn btn-primary">Cv Letöltése</button></a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+        <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-js"></i> Javascript</h3>
+
+        <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-bootstrap"></i> Bootstrap</h3>
+        <p></p>
+
+
+        <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-brands fa-html5"></i> Html </h3>
+        <p></p>
+
+        <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-node"></i> NodeJs</h3>
+        <p></p>
+
+        <h3 class="fs-2 text-body-emphasis text-center"> <i class="fa-brands fa-css3-alt"></i> CSS </h3>
+        <p></p>
+
+        <h3 class="fs-2 text-body-emphasis text-center"><i class="fa-solid fa-database"></i> PostgreSQL</h3>
+        <p></p>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="projekthatter">
+  <h2 id="projektjeim" class="text-center">Projektjeim</h2>
 
   <!--Kártyák-->
-  <div class="fade container kartyak py-2 px-6">
+  <div class="fade2 container kartyak py-2 px-6">
 
     <div class="row  g-3 px-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
 
@@ -220,36 +303,41 @@
     </div>
   </div>
 
-
-  <!--ELVÁLASZTÓ-->
-  <div class="b-example-divider"></div>
-
-
-  <!--Rólam-->
-
-<h1 class="szoveg text-center display-5 fw-bold text-body-emphasis">Kapcsolat :</h1>
-
-<div class="mx-auto py-3 text-center">
-
-  <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"><img class="info" src="./linkedin.png"
-      alt=""></a>
-  <a href="mailto:borose12@hotmail.com"><img class="info" src="./email.png" alt=""></a>
-  <img src="" alt="">
-
 </div>
 
-<h2 class="text-center">Vagy</h2>
 
-    <div class="col-6 mx-auto text-center justify-content-center  py-2 my-2 ">
 
-      <h1 class="szoveg fw-bold text-body-emphasis">Irj nekem üzenetet :</h1>
-      <form id="emailForm">
-        <div class="form-group">
-          <textarea class="form-control" id="uzenet" cols="3" rows="2"></textarea>
-          <a href="mailto:borose12@hotmail.com"><button class="btn-primary btn" type="submit">Küldés</button></a>
-        </div>
-      </form>
-    </div>
+
+
+
+
+
+
+
+
+
+  <h1 class="szoveg text-center display-5 fw-bold text-body-emphasis">Kapcsolat :</h1>
+
+  <div id="elerhetoseg" class="mx-auto py-3 text-center">
+
+    <a href="https://www.linkedin.com/in/enrico-boros-17a69a25a"><img class="info" src="./linkedin.png" alt=""></a>
+    <a href="mailto:borose12@hotmail.com"><img class="info" src="./email.png" alt=""></a>
+   
+
+  </div>
+
+  <h2 class="text-center">Vagy</h2>
+
+  <div class="col-6 mx-auto text-center justify-content-center  py-2 my-2 ">
+
+    <h1 class="szoveg fw-bold text-body-emphasis">Irj nekem üzenetet :</h1>
+    <form id="emailForm">
+      <div class="form-group">
+        <textarea class="form-control" id="uzenet" cols="3" rows="2"></textarea>
+        <a href="mailto:borose12@hotmail.com"><button class="btn-primary btn" type="submit">Küldés</button></a>
+      </div>
+    </form>
+  </div>
 
   </div>
 
