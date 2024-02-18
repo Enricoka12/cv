@@ -260,6 +260,7 @@ animation: bounce 2s ease infinite;
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 780px) {
   .udv {
+
     font-size: 3em;
   }
 }
@@ -267,12 +268,7 @@ animation: bounce 2s ease infinite;
 
 
 
-.enkepem {
-  background-image: url("reteg3.png");    
-  size: cover;
-  background-repeat: no-repeat;
 
-}
 
 
 
@@ -287,19 +283,6 @@ animation: bounce 2s ease infinite;
   font-size: 3em;
   animation: flicker 0.5s ease-in-out infinite alternate;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
