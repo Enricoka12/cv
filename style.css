@@ -155,14 +155,6 @@ button:hover, a:hover {
 
 
 
-
-
-
-
-
-
-
-
 .udv {
 padding-left: 2rem;
   padding-top: 12rem;
@@ -228,10 +220,6 @@ padding-left: 2rem;
 
 
 
-
-
-
-
 .azenkepem {
   width: auto;
   height: 100vh;
@@ -266,18 +254,6 @@ animation: bounce 2s ease infinite;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .ikonok {
   font-size: 3em;
   animation: flicker 0.5s ease-in-out infinite alternate;
@@ -285,11 +261,13 @@ animation: bounce 2s ease infinite;
 
 
 
+.rolam {
+  color: aliceblue;
+}
 
-
-
-
-
+.projektszoveg {
+  color: aliceblue;
+}
 
 
 
