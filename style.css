@@ -247,8 +247,12 @@ animation: bounce 2s ease infinite;
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 780px) {
   .udv {
-
     font-size: 3em;
+  }
+
+  .azenkepem {
+    width: 90%;
+    height: auto;
   }
 }
 
