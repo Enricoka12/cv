@@ -70,7 +70,7 @@ console.log(newdate)
     var emailSubject = "Üzenet"; // Az e-mail tárgya
 
     // Összeállítjuk az e-mail címet és a tárgyat a mailto link számára
-    var mailtoLink = 'mailto:cel@email.hu' +
+    var mailtoLink = 'mailto:kettohallo@gmail.hu' +
         '?subject=' + encodeURIComponent(emailSubject) +
         '&body=' + encodeURIComponent(message);
 

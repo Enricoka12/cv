@@ -278,3 +278,9 @@ animation: bounce 2s ease-in infinite;
 li {
   list-style: none;
 }
+
+.kartyahover:hover {
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+    transform: scale(1.1);
+}
