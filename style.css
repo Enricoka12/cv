@@ -254,6 +254,15 @@ animation: bounce 2s ease-in infinite;
     width: 90%;
     height: auto;
   }
+  .section {
+    height: 100vh; /* Minden szekció a képernyő magasságának fele */
+    display: flex;
+    margin:0.5rem;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+  }
+
 }
 
 
