@@ -281,6 +281,24 @@ li {
 
 .kartyahover:hover {
   margin-top: 0.5rem;
+  max-height: 100%;
   margin-bottom:0.5rem;
     transform: scale(1.1);
+}
+
+.section {
+  height: 100vh; /* Minden szekció a képernyő magasságának fele */
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+.left {
+  justify-content: start;
+  background-color: #3498db; /* Kék háttér */
+}
+.right {
+
+  justify-content: end;
+  background-color: #2ecc71; /* Zöld háttér */
 }

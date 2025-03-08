@@ -1,0 +1,304 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, #090809, #09070a, #09070c, #08070d, #06070f, #0b0f16, #0f161c, #101b22, #14272e, #193338, #1f3f41, #284c49);
+  background-repeat: no-repeat;
+}
+
+
+.navigacio {
+  animation: lefeleuszik 1s ease-in;
+ min-width: 100%;
+ backdrop-filter: blur(10px);
+ opacity: 50%;
+}
+
+.navigacio:hover {
+  opacity: 100%;
+}
+
+
+@keyframes lefeleuszik {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+
+
+
+
+
+.info {
+  width: 80px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.munkaim {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+}
+
+.munkak {
+  display: flex;
+  flex-direction: row;
+ justify-content:space-evenly;
+  margin:0 auto;
+  gap: 30rem;
+}
+
+.kartyakep {
+  height: 14rem;
+}
+
+
+.card-body {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+
+.carden {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+.en {
+ max-width: 100%;
+  margin: auto auto 1rem auto;
+}
+
+
+
+
+
+@keyframes slide-in-anim2 {
+	20% {
+		opacity: 0;
+    transform: translateX(-100%)  scale(0.8);
+	}
+	75% {
+		transform: translateX(0%) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(55%)  translateY(-100%) scale(1.0);
+	}
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+    transform: translateX(-100%)  scale(0.8);
+	}
+	75% {
+		transform: translateX(0%) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(15%) translateY(20%) scale(1.0);
+	}
+}
+
+
+
+.form-control {
+  width: 40%;
+}
+
+
+
+
+.udv {
+padding-left: 2rem;
+  padding-top: 12rem;
+  font-size: 8rem;
+  opacity: 100%;
+  color: #177be6;
+		text-shadow:
+    0 0 2px rgba(27, 238, 213, 0.92),
+    0 0 10px rgba(19, 245, 218, 0.34),
+    0 0 4px rgba(30,132,242,0.52),
+    0 0 7px rgba(5, 182, 152, 0.92),
+    0 0 11px rgba(30,132,242,0.78),
+    0 0 16px rgba(51, 30, 242, 0.92);
+    &:hover {
+      color: #fff;
+    }
+    animation: fallingLetters 1.5s ease forwards,flicker 0.5s ease-in-out infinite alternate;
+  
+}
+
+
+
+
+
+@keyframes fallingLetters {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@keyframes flicker {
+	0% {
+		opacity: 0.5;
+		text-shadow: 2px 2px 10px blue;
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 2px 2px 20px blue;
+	}
+}
+
+
+
+
+.azenkepem {
+  width: auto;
+  height: 100vh;
+  filter: drop-shadow(-20px 20px 52px rgba(36, 145, 207, 0.425));
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(145,159,50,1) 40%, rgba(64,146,213,1) 100%);
+border-radius: 50%;
+animation: bounce 2s ease-in infinite;
+  &:hover  {
+    filter: drop-shadow(-20px 20px 52px rgba(219, 223, 224, 0.425));
+  }
+
+}
+
+
+
+
+@keyframes bounce {
+    10% { transform:translateY(0%); }
+    40% { transform:translateY(-1%); }
+    100% { transform:translateY(0); }
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 780px) {
+  .udv {
+    font-size: 3em;
+  }
+
+  .azenkepem {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+
+.ikonok {
+  font-size: 3em;
+  animation: flicker 0.5s ease-in-out infinite alternate;
+}
+
+
+
+.rolam {
+  color: aliceblue;
+}
+
+.projektszoveg {
+  color: aliceblue;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+.kartyahover:hover {
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+    transform: scale(1.1);
+}
+
+.section {
+  height: 50vh; /* Minden szekció a képernyő magasságának fele */
+  display: flex;
+ 
+  color: white;
+  font-size: 2em;
+}
+.left {
+  align-items: start;
+  justify-content: start;
+  background-color: #3498db; /* Kék háttér */
+}
+.right {
+  align-items: end;
+  justify-content: end;
+  background-color: #2ecc71; /* Zöld háttér */
+}
