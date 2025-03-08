@@ -255,12 +255,11 @@ animation: bounce 2s ease-in infinite;
     height: auto;
   }
   .section {
-    height: 100vh; /* Minden szekció a képernyő magasságának fele */
+    height: 100vh; 
     display: flex;
-    margin:0.5rem;
     align-items: center;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
   }
 
 }
