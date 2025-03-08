@@ -566,26 +566,34 @@
   <script>
     // Balról beúszás
     ScrollReveal().reveal('.left', {
+      threshold: 0.2,
       origin: 'left',
       distance: '100px',
       duration: 1500,
+      delay: 200,
       reset: true,
+      mobile: true,
     });
 
     // Jobbról beúszás
     ScrollReveal().reveal('.right', {
+      threshold: 0.2,
       origin: 'right',
       distance: '250px',
       duration: 1500,
+      delay: 200,
       reset: true,
+      mobile: true,
     });
 
     // Szöveg animációja: fadeIn
     ScrollReveal().reveal('.leiras', {
+      threshold: 0.2,
       opacity: 0, // Kezdetben láthatatlan
       duration: 1000,
-      delay: 500, // Késleltetés, hogy a kép után jöjjön
+      delay: 500, 
       reset: true,
+      mobile: true,
     });
   </script>
 
