@@ -319,7 +319,7 @@ li {
 
 .keret{
   position:relative;
-
+  border-radius: 6%;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -335,6 +335,8 @@ li {
   right:-2px;
   background:#fff;
   z-index:-1;
+  border-radius: 6%;
+
 }
 
 .keret:after{
@@ -347,11 +349,15 @@ li {
   background:#fff;
   z-index:-2;
   filter:blur(40px);
+  border-radius: 6%;
+
 }
 
 .keret:before,
 .keret:after{
   background:linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+  border-radius: 6%;
+
 }
 
 
@@ -419,6 +425,7 @@ li {
 }
 .boksz::before,
 .boksz::after {
+  border-radius: 10%;
   content: '';
   position: absolute;
   top: -15px;
@@ -447,7 +454,8 @@ li {
   animation: border 12s linear infinite;
 }
 .boksz::after {
-  filter: blur(50px);
+  filter: blur(150px);
+  border-radius: 10%;
 }
 @keyframes border {
   0%,
